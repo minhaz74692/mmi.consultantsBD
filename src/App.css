@@ -5,6 +5,10 @@
     animation: dropAnim 3s ease-in-out;
 };
 @keyframes dropAnim {
-    0%{transform: rotate(90deg)}
-    100%{transform: rotate(40deg)}
+    0%{
+        height: 0px;
+    }
+    100%{
+        height: 50px;
+    }
 }

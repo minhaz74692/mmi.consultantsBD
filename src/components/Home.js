@@ -30,7 +30,7 @@ const Home = () => {
         <div>Col3</div>
       </div> */}
 
-        <div className='grid lg:grid-cols-3 sm:grid-cols-1 grid-cols-1 h-[80vh] lg:h-[100vh]'>
+        <div className='grid lg:grid-cols-3 sm:grid-cols-1 grid-cols-1 h-[80vh] lg:h-[80vh]'>
           <div className='flex flex-col items-center justify-center font-mono text-white text-center bg-black bg-opacity-30 mt-10'>
             <h1 className='lg:text-[4rem] text-[2rem] px-5 lg:mt-20 pt-14 lg:pt-0 font-bold text-white animate-[titleAnim_1s_ease-in-out] animate-bounce'>MMI CONSULTANTS BD</h1>
             <h2 className='lg:text-[2.2rem] text-[1.5rem] py-5 animate-[dreamAnim_1s_ease-in-out] delay-100'>WE BUILD YOUR DREAMS</h2>
