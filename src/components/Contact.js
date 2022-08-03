@@ -6,12 +6,12 @@ const Contact = () => {
   const contactIcon = 'text-[2.5rem] text-yellow-700 mr-3';
   const contactTitle ='text-[1.5rem] lg:text-[2rem] font-bold text-gray-700';
   const contactDetail ='text-[1.1rem] lg:text-[1.2rem]';
-  const links = "text-[2.5rem] mx-5"
+  const links = "text-[2.5rem] mx-5 text-gray-800"
   return (
     <div>
       <div className='flex h-[15vh] lg:h-[20vh] relative pt-[5rem] mb-2 text-center justify-center items-center'>
         <h1 className='text-center font-bold backFont absolute inline-block text-[3.8rem] lg:text-[6rem] opacity-20'>CONTACT</h1>
-        <h1 className='text-center frontFont absolute inline-block text-[2rem] lg:text-[3rem] font-bold'>GET IN  <span className='text-indigo-800'>TOUCH</span></h1>
+        <h1 className='text-center frontFont absolute inline-block text-[2rem] lg:text-[3rem] font-bold text-gray-800'>GET IN  <span className='text-indigo-800'>TOUCH</span></h1>
       </div>
       <div className='flex flex-col-reverse lg:flex-row justify-between'>
         
