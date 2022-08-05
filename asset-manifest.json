@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/mmi.consultantsBD/static/css/main.58e6f118.css",
+    "main.js": "/mmi.consultantsBD/static/js/main.69f28954.js",
+    "static/js/787.b14979ac.chunk.js": "/mmi.consultantsBD/static/js/787.b14979ac.chunk.js",
+    "static/media/construction1.jpg": "/mmi.consultantsBD/static/media/construction1.cf83ca3b28bc9ca04a16.jpg",
+    "static/media/retro4.png": "/mmi.consultantsBD/static/media/retro4.d710372b4243cf5efbca.png",
+    "static/media/favicon.png": "/mmi.consultantsBD/static/media/favicon.465748c9f754a3299574.png",
+    "static/media/std4.jpg": "/mmi.consultantsBD/static/media/std4.4b969bbe0055e114e03b.jpg",
+    "static/media/retrofitting.png": "/mmi.consultantsBD/static/media/retrofitting.fac06e1b42a38cedb092.png",
+    "static/media/seis4.jpg": "/mmi.consultantsBD/static/media/seis4.cdd39194506588f4317d.jpg",
+    "static/media/structural_detailing.png": "/mmi.consultantsBD/static/media/structural_detailing.087c9d64a4ae7efe5bfc.png",
+    "static/media/std3.jpg": "/mmi.consultantsBD/static/media/std3.75e99d54269dbcc14bba.jpg",
+    "static/media/structural.jpg": "/mmi.consultantsBD/static/media/structural.207a3528e64997b972eb.jpg",
+    "static/media/seis2.jpg": "/mmi.consultantsBD/static/media/seis2.6a4603505a6dd17d553a.jpg",
+    "static/media/st4.jpg": "/mmi.consultantsBD/static/media/st4.7958568845fcba054e23.jpg",
+    "static/media/frp.png": "/mmi.consultantsBD/static/media/frp.5dc3ad52d3f577d469f1.png",
+    "static/media/seismic.jpg": "/mmi.consultantsBD/static/media/seismic.18e6b76604f82d80d04a.jpg",
+    "static/media/st3.jpg": "/mmi.consultantsBD/static/media/st3.b2adbb44b6aa23dae722.jpg",
+    "static/media/std2.jpg": "/mmi.consultantsBD/static/media/std2.05b964de3807e5f8d224.jpg",
+    "static/media/frp4.jpg": "/mmi.consultantsBD/static/media/frp4.950f67608d6a1b0a98e5.jpg",
+    "static/media/retro2.jpg": "/mmi.consultantsBD/static/media/retro2.ecd40a1f76a1805f2038.jpg",
+    "static/media/frp3.jpg": "/mmi.consultantsBD/static/media/frp3.1b34ad0066cd04bac9d1.jpg",
+    "static/media/st2.jpg": "/mmi.consultantsBD/static/media/st2.3037c63d37f583b419d1.jpg",
+    "static/media/frp2.jpg": "/mmi.consultantsBD/static/media/frp2.50c7fbab5ae4b8f0027f.jpg",
+    "static/media/seis3.jpg": "/mmi.consultantsBD/static/media/seis3.7af67a68b5939019be22.jpg",
+    "static/media/logo.svg": "/mmi.consultantsBD/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/mmi.consultantsBD/index.html",
+    "main.58e6f118.css.map": "/mmi.consultantsBD/static/css/main.58e6f118.css.map",
+    "main.69f28954.js.map": "/mmi.consultantsBD/static/js/main.69f28954.js.map",
+    "787.b14979ac.chunk.js.map": "/mmi.consultantsBD/static/js/787.b14979ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58e6f118.css",
+    "static/js/main.69f28954.js"
+  ]
+}
