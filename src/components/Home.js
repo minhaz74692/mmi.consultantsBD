@@ -8,7 +8,7 @@ import AllWork from './AllWork';
 
 const Home = () => {
   return (
-    <div>
+    <div className='mb-10'>
       <div className={`bg-fixed bg-no-repeat bg-cover`} style={{ backgroundImage: `url(${background})` }}>
         <div className='grid lg:grid-cols-3 sm:grid-cols-1 grid-cols-1 h-[80vh] lg:h-[80vh]'>
           <div className='flex flex-col items-center justify-center font-mono text-white text-center bg-black bg-opacity-30 mt-10'>
@@ -29,6 +29,8 @@ const Home = () => {
           )
         })}
       </div>
+      <p className='mt-5 text-2xl lg:text-3xl text-center font-mono font-bold'>MMI CONSULTANTS BD</p>
+      <hr className='w-[12rem] lg:w-[15rem] mx-auto font-bold bg-gray-800 h-[2px] my-2' />
       <MmiConsultants/>
     </div>
   )

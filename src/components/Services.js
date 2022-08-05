@@ -9,7 +9,8 @@ const Services = () => {
   const imgSrc = found.imgSrc;
   const title = found.title;
   const brief = found.brief;
-  const applications = ['SAP 2020', 'RISA', 'DYBA 5', 'STAAD Pro', 'S-Frame, S-Steel and S-Concrete', 'ANSYS', 'Descon Brace Descon Win and Ram Connection', 'Shaft 3D and Foundation 3D']
+  const applications = ['SAP 2020', 'RISA', 'DYBA 5', 'STAAD Pro', 'S-Frame, S-Steel and S-Concrete', 'ANSYS', 'Descon Brace Descon Win and Ram Connection', 'Shaft 3D and Foundation 3D'];
+  const departments = ['Planning', 'Design', 'Construction', 'Survey and Soil Test', 'Quality Management']
   return (
     <div className='pt-[5rem] bg-slate-100'>
       <p className='text-center text-[1.5rem] lg:text-[2rem] font-bold text-gray-700' >{title.slice(2)}</p>
@@ -28,18 +29,26 @@ const Services = () => {
             })}
           </div>
         </div>
-        <div className='lg:col-start-9 lg:col-end-13 px-5 lg:px-0 mt-5'>
-          <p className='font-bold text-[1.1rem] lg:text-[1.3rem]'>OUR SERVICES:</p>
+        <div className='lg:col-start-9 lg:col-end-13 px-5 lg:px-0 mt-5 text-center lg:text-left'>
+          <p className='font-bold text-[1.1rem] lg:text-[1.3rem] font-mono'>OUR SERVICES:</p>
           <ul className='mb-5'>
           {AllWork.map(e => {
                     return (
-                      <li className={`py-1 hover:bg-slate-100 w-[65%] bg-${location.pathname === "/services/"+e.key ?"white":"none"}`}><Link className={`text-${location.pathname === "/services/"+e.key ?"indigo-800":"black"}`} to={`/services/${e.key}`}>- {e.title.slice(2)}</Link>
+                      <li className={`py-1 hover:bg-slate-100 w-full lg:w-[65%] bg-${location.pathname === "/services/"+e.key ?"white":"none"}`}><Link className={`text-${location.pathname === "/services/"+e.key ?"indigo-800":"black"}`} to={`/services/${e.key}`}>- {e.title.slice(2)}</Link>
                       </li>
                     )
                   })}
           </ul>
-          <h3 className='font-bold text-[1.1rem] lg:text-[1.3rem]'>OUR USE OF SOFTWARE:</h3>
-          <ul className=''>
+          <h3 className='font-bold text-[1.1rem] lg:text-[1.3rem] font-mono'>DEPARTMENTS:</h3>
+          <ul className='pb-5'>
+          {departments.map(app=>{
+            return(
+              <li className='my-1'>- {app}</li>
+            )
+          })}
+          </ul>
+          <h3 className='font-bold text-[1.1rem] lg:text-[1.3rem] font-mono'>OUR USE OF SOFTWARE:</h3>
+          <ul className='pb-5'>
           {applications.map(app=>{
             return(
               <li className='my-1'>- {app}</li>

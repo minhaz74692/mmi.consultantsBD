@@ -7,6 +7,10 @@ const Contact = () => {
   const contactTitle ='text-[1.5rem] lg:text-[2rem] font-bold text-gray-700';
   const contactDetail ='text-[1.1rem] lg:text-[1.2rem]';
   const links = "text-[2.5rem] mx-5 text-gray-800"
+  const submitHandle= ()=>{
+    alert("Thank you for your feedback")
+  }
+
   return (
     <div>
       <div className='flex h-[15vh] lg:h-[20vh] relative pt-[5rem] mb-2 text-center justify-center items-center'>
@@ -59,14 +63,14 @@ const Contact = () => {
 
       <div className="w-[95vw] lg:w-full lg:px-60 mx-auto bg-slate-200 rounded-lg">
           <div className="p-6">
-            <form method="POST" action="#">
+            <form onSubmit={submitHandle}>
               <label className="block mb-6">
                 <span className="text-gray-700">Your name</span>
                 <input
                   type="text"
                   name="name"
                   className={formStyle}
-                  placeholder="Joe Bloggs"
+                  placeholder="Joe Bloggs" 
                 />
               </label>
               <label className="block mb-6">
@@ -91,8 +95,7 @@ const Contact = () => {
               <div className="mb-6">
                 <button
                   type="submit"
-                  className=" h-10 px-5 text-indigo-100 bg-indigo-700 rounded-lg transition-colors duration-150 focus:shadow-outline hover:bg-indigo-800">
-                    <a href='#'>Send Message</a>
+                  className=" h-10 px-5 text-indigo-100 bg-indigo-700 rounded-lg transition-colors duration-150 focus:shadow-outline hover:bg-indigo-800">Send Message
                 </button>
               </div>
             </form>

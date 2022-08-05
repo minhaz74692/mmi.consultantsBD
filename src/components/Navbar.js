@@ -33,18 +33,6 @@ const Navbar = () => {
                   Home
                 </Link>
               </li>
-              <li className="nav-item px-3 lg:border-r-2" id="dropdown" style={{ "color": `${location.pathname.slice(0,10) === "/services/" ? "navy" : "black"}` }}>
-                <p>
-                  Services  <i className="fa-solid fa-caret-down"></i>
-                </p>
-                <div className="absolute bg-gray-200 hidden w-auto text-[1rem] rounded border-[1px] border-black" id="dropdownContent">
-                  {AllWork.map(e => {
-                    return (
-                      <Link className={`hover:bg-slate-100 px-5 py-1 border-b-[1px]  border-black text-${location.pathname === "/services/"+e.key ?"indigo-800":"black"}`} to={`/services/${e.key}`}>{e.title.slice(2)}</Link>
-                    )
-                  })}
-                </div>
-              </li>
               <li className="nav-item px-3 lg:border-r-2" style={{ "color": `${location.pathname === "/about" ? "navy" : "black"}` }}>
                 <Link
                   className="nav-link p-0"
@@ -53,6 +41,19 @@ const Navbar = () => {
                   About Us
                 </Link>
               </li>
+              <li className="nav-item px-3 lg:border-r-2" id="dropdown" style={{ "color": `${location.pathname.slice(0,10) === "/services/" ? "navy" : "black"}` }}>
+                <p>
+                  Services  <i className="fa-solid fa-caret-down"></i>
+                </p>
+                <div className="absolute bg-gray-100 hidden w-auto text-[1rem] rounded border-[1px] border-gray-500" id="dropdownContent">
+                  {AllWork.map(e => {
+                    return (
+                      <Link className={`hover:bg-slate-300 px-5 py-1 border-b-[1px]  border-gray-500 text-${location.pathname === "/services/"+e.key ?"indigo-800":"black"}`} to={`/services/${e.key}`}>{e.title.slice(2)}</Link>
+                    )
+                  })}
+                </div>
+              </li>
+             
               {/* <li className="nav-item px-3 lg:border-r-2" style={{ "color": `${location.pathname === "/projects" ? "navy" : "black"}` }}>
                 <Link
                   className="nav-link p-0"
