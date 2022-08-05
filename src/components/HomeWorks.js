@@ -5,7 +5,7 @@ const HomeWorks = (props) => {
   return (
     <div>
       <div className="flex justify-center">
-        <div className={`flex flex-col md:flex-${props.row} lg:flex-${props.row} md:w-full mt-5 rounded-lg bg-white shadow-lg lg:px-[7rem] lg:py-2 overflow-hidden`}>
+        <div className={`flex flex-col md:flex-${props.row} lg:flex-row md:w-full mt-5 rounded-lg bg-white shadow-lg lg:px-[7rem] lg:py-2 overflow-hidden`}>
           <img className="lg:w-[450px] md:w-[400px] w-[350px] block mx-auto md:h-auto object-cover rounded-lg md:rounded-none md:rounded-lg hover:scale-110 hover:duration-500" src={props.imgSrc} alt="" />
           <div className="p-6 flex flex-col justify-center text-left">
             <h5 className="text-gray-900 text-2xl font-bold mb-2">{props.title}</h5>
