@@ -36,7 +36,7 @@ const HomeCarousel = () => {
                     <div className="carousel-item active relative float-left w-full">
                         <img
                             src="https://images.unsplash.com/photo-1429497419816-9ca5cfb4571a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
-                            className="block w-[850px] h-[250px] md:h-[350px] sm:h-[300px] lg:h-[500px] rounded-3xl"
+                            className="block w-[850px] h-[250px] md:h-[350px] sm:h-[300px] lg:h-[480px] rounded-3xl"
                             alt="..."
                         />
                         <div className="carousel-caption hidden md:block absolute text-center">
@@ -45,7 +45,7 @@ const HomeCarousel = () => {
                     <div className="carousel-item relative float-left w-full">
                         <img
                             src="https://images.unsplash.com/photo-1591645321243-3adc1e75cfdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=903&q=80"
-                            className="block w-[850px] h-[250px] md:h-[350px] sm:h-[300px] lg:h-[500px] rounded-3xl"
+                            className="block w-[850px] h-[250px] md:h-[350px] sm:h-[300px] lg:h-[480px] rounded-3xl"
                             alt="..."
                         />
                         <div className="carousel-caption hidden md:block absolute text-center">
@@ -54,7 +54,7 @@ const HomeCarousel = () => {
                     <div className="carousel-item relative float-left w-full">
                         <img
                             src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80"
-                            className="block w-[850px] h-[250px] md:h-[350px] sm:h-[300px] lg:h-[500px]  rounded-3xl"
+                            className="block w-[850px] h-[250px] md:h-[350px] sm:h-[300px] lg:h-[480px]  rounded-3xl"
                             alt="..."
                         />
                         <div className="carousel-caption hidden md:block absolute text-center">
@@ -65,7 +65,7 @@ const HomeCarousel = () => {
                     <div className="carousel-item relative float-left w-full">
                         <img
                             src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                            className="block w-[850px] h-[250px] md:h-[350px] sm:h-[300px] lg:h-[500px] rounded-3xl"
+                            className="block w-[850px] h-[250px] md:h-[350px] sm:h-[300px] lg:h-[480px] rounded-3xl"
                             alt="..."
                         />
                         <div className="carousel-caption hidden md:block absolute text-center">

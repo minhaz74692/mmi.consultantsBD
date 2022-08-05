@@ -10,7 +10,7 @@ const HomeWorks = (props) => {
           <div className="p-6 flex flex-col justify-center text-left">
             <h5 className="text-gray-900 text-2xl font-bold mb-2">{props.title}</h5>
             <p className="text-black mb-4 text-xl">{props.detail}</p>
-            <Link className='animate-bounce text-xl text-indigo-800' to={props.link}>Details<i class="fa-solid fa-arrow-right"></i></Link>
+            <Link className='animate-bounce text-xl text-indigo-800' to={props.link}>Details<i className="fa-solid fa-arrow-right"></i></Link>
           </div>
         </div>
       </div>
