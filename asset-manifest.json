@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mmi.consultantsBD/static/css/main.3784723c.css",
-    "main.js": "/mmi.consultantsBD/static/js/main.15d2de90.js",
+    "main.css": "/mmi.consultantsBD/static/css/main.a2e01ec2.css",
+    "main.js": "/mmi.consultantsBD/static/js/main.1a1a52bf.js",
     "static/js/787.b14979ac.chunk.js": "/mmi.consultantsBD/static/js/787.b14979ac.chunk.js",
     "static/media/construction1.jpg": "/mmi.consultantsBD/static/media/construction1.cf83ca3b28bc9ca04a16.jpg",
     "static/media/retro4.png": "/mmi.consultantsBD/static/media/retro4.d710372b4243cf5efbca.png",
@@ -26,12 +26,12 @@
     "static/media/seis3.jpg": "/mmi.consultantsBD/static/media/seis3.7af67a68b5939019be22.jpg",
     "static/media/logo.svg": "/mmi.consultantsBD/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/mmi.consultantsBD/index.html",
-    "main.3784723c.css.map": "/mmi.consultantsBD/static/css/main.3784723c.css.map",
-    "main.15d2de90.js.map": "/mmi.consultantsBD/static/js/main.15d2de90.js.map",
+    "main.a2e01ec2.css.map": "/mmi.consultantsBD/static/css/main.a2e01ec2.css.map",
+    "main.1a1a52bf.js.map": "/mmi.consultantsBD/static/js/main.1a1a52bf.js.map",
     "787.b14979ac.chunk.js.map": "/mmi.consultantsBD/static/js/787.b14979ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3784723c.css",
-    "static/js/main.15d2de90.js"
+    "static/css/main.a2e01ec2.css",
+    "static/js/main.1a1a52bf.js"
   ]
 }
